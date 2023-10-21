@@ -1,0 +1,78 @@
+/* Sets the width and text size of the page content */
+#text-content {
+    width: auto;
+    max-width: 60rem;
+    margin: auto;
+    font-size: x-large;
+}
+
+/* Sets the size of the little reference numbers */
+.reference {
+    font-size: small;
+}
+
+/* Wrapper for images you want to appear on the left */
+.image-wrapper-left{
+    float: left;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    max-width: 60em;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+/* Wrapper for images you want to appear on the right */
+.image-wrapper-right{
+    float: right;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+    max-width: 60em;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+.image-wrapper-full{
+    margin-bottom: .5rem;
+    max-width: 60em;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+/* Removes margins from text within the wrapper */
+.image-wrapper-left p {
+    margin: 0rem;
+}
+/* Removes margins from text within the wrapper */
+.image-wrapper-right p {
+    margin: 0rem;
+}
+
+/* Sets the size of the title above an image, if you want your image to have a title */
+.image-title {
+    font-size: medium;
+}
+
+/* Sets the size of the reference below an image if you want to credit it/reference it */
+.image-reference {
+    font-size: small;
+}
+
+/* CSS for all image */
+img {
+    max-width: 60em;
+    height: auto;
+}
+
+/* CSS for thumbnails */
+.image-thumb {
+    width: calc(60em / 4);
+}
+
+/* CSS for expanded image */
+.image-full {
+    max-width: 100%;
+    width: 60em;
+}
