@@ -1,0 +1,281 @@
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	min-height: 100vh;
+	 height: 200vh; /* my image wasnt changing border radius when I reached the bottom of the page */
+}
+
+.header{
+	min-height:100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+nav img{
+	width: 150px;
+}
+
+.nav-links > ul{
+	max-width: 650px;
+}
+
+.nav-links{
+	flex: flex;   
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;	
+}
+.sub-header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/data_analysis.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header h1{
+    margin-top: 100px;
+	padding-bottom: 20px;
+}
+
+/* Introduction information text with image next to it and h1 element in line with image */
+.pageOne{
+	max-width: 1500px;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.intro{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	gap: 20px;
+	width: 100%;
+	/* flex: 1; */
+}
+
+
+
+
+.text-container{
+	/* flex: 1; */
+	text-align: justify;
+	max-width: 500px;
+}
+.text-container > h1{
+	padding: 0 0 20px 0;
+}
+/* @media (max-width: 500px){
+	.intro > img {
+		height: 200px;
+		width: 200px;
+		object-fit: cover;
+		object-position: center;
+	}
+} */
+	
+
+/* second part of page 1 trying to make it all look nice */
+.inclusive{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	max-width: 1500px;
+	margin: auto;
+	margin-top: 30px;	
+	
+}
+
+#inclusive-img{
+	margin-top: 40px;
+	max-width: 500px;
+	border-radius: 20px;
+}
+
+#quote{
+	margin: 15px
+}
+#inclusive-title{
+	margin-bottom: 20px;
+}
+
+.section-img{
+	min-width: 300px;
+}
+
+/* footer of page 1 most likely a back to top button and a button that goes to reference page */
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+/* page two content*/
+.sub-header2{
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/imageOne.png);
+	min-height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header2 > h1{
+	margin-top: 100px;
+	padding-bottom: 20px;
+}
+
+
+#imgS1{
+	position: relative;
+	left: 50%;
+	bottom: 50%;
+	border: red 1px solid;
+}
+
+
+
+/* shit i've added */
+
+.intro > .image-container > img{
+	max-width: 500px;
+	border-radius: 20px;
+}
+
+.image-title {
+	font-size: medium;
+	text-align: center;
+}
+
+.image-source {
+	font-size: small;
+	text-align: center;
+}
+
+
+
+
+
+/* Aaron's stuff */
+
+/* Sets the width and text size of the page content */
+#text-content {
+    width: auto;
+    max-width: 60rem;
+    margin: auto;
+    font-size: x-large;
+}
+
+/* Sets the size of the little reference numbers */
+.reference {
+    font-size: small;
+}
+
+/* Wrapper for images you want to appear on the left */
+.image-wrapper-left{
+    float: left;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    max-width: 60em;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+/* Wrapper for images you want to yeah appear on the right */
+.image-wrapper-right{
+    float: right;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+    max-width: 60em;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+.image-wrapper-full{
+    margin-bottom: .5rem;
+    max-width: 60em;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+/* Removes margins from text within the wrapper */
+.image-wrapper-left p {
+    margin: 0rem;
+}
+/* Removes margins from text within the wrapper */
+.image-wrapper-right p {
+    margin: 0rem;
+}
+
+/* Sets the size of the title above an image, if you want your image to have a title */
+.image-title {
+    font-size: medium;
+}
+
+/* Sets the size of the reference below an image if you want to credit it/reference it */
+.image-reference {
+    font-size: small;
+}
+
+/* CSS for all image */
+img {
+    max-width: 60em;
+    height: auto;
+}
+
+/* CSS for thumbnails */
+.image-thumb {
+    width: calc(60em / 4);
+}
+
+/* CSS for expanded image */
+.image-full {
+    max-width: 100%;
+    width: 60em;
+}
+
+#text-content > .left-header{
+	font-weight: bold;
+}
+
+#text-content > .right-header{
+	font-weight: bold;
+	text-align: right;
+}

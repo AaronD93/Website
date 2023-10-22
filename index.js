@@ -18,6 +18,7 @@ function expandLeftImage(image) {
 
 for (let i = 0; i<imageWrapperRight.length; i++) {
     let currentImage = imageWrapperRight[i].querySelector("img");
+    console.log(currentImage)
     currentImage.addEventListener('click',e => {expandRightImage(currentImage)});
 }
 
