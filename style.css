@@ -247,7 +247,7 @@ nav img{
 }
 
 /* CSS for all image */
-img {
+.text-content > img {
     max-width: 60em;
     height: auto;
 }
