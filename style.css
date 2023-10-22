@@ -47,15 +47,7 @@ nav img{
 	text-decoration: none;
 	font-size: 13px;	
 }
-.sub-header{
-    min-height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/data_analysis.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}
+
 .sub-header h1{
     margin-top: 100px;
 	padding-bottom: 20px;
@@ -278,4 +270,14 @@ img {
 #text-content > .right-header{
 	font-weight: bold;
 	text-align: right;
+}
+
+.sub-header-3{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/data_analysis.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
 }
